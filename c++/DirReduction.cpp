@@ -26,7 +26,7 @@ public:
 };
 
 int main() {
-    std::vector<std::string> d1 = {"NORTH","SOUTH"};
+    std::vector<std::string> d1 = {"NORTH","SOUTH", "WEST"};
     std::vector<std::string> ans1 = DirReduction::dirReduc(d1);
     for (const auto direction: ans1) {
         std::cout << direction << std::endl;
